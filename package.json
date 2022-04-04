@@ -1,0 +1,25 @@
+{
+  "name": "azuread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^1.7.0",
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.5",
+    "request": "^2.88.2",
+    "validate-azure-ad-token": "^1.0.1"
+  }
+}
